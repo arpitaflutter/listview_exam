@@ -1,10 +1,10 @@
 class Modeldata{
   String? GRID,NAME,STD;
 
-  Modeldata()
+  Modeldata(
   {
-    this.GRID;
-    this.NAME;
-    this.STD;
-  }
+    this.GRID,
+    this.NAME,
+    this.STD,
+  });
 }

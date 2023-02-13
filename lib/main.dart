@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:listview_exam/update.dart';
 
 import 'Homepage.dart';
-import 'data.dart';
+import 'Adddata.dart';
 
 void main()
 {
@@ -11,8 +10,7 @@ void main()
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => Homepage(),
-        'add_data':(context) => data(),
-        'update':(context) => update(),
+        'data':(context) => Adddata(),
       },
     ),
   );
